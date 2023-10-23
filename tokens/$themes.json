@@ -1,0 +1,22 @@
+[
+  {
+    "id": "d6eeeb974b84b7463fff220a36a9554a376db7b1",
+    "name": "gv",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives": "enabled",
+      "semantics": "enabled"
+    },
+    "group": "brands"
+  },
+  {
+    "id": "a7ffb2547635021d53aeb5008e4e64f4c13b1721",
+    "name": "default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives": "enabled",
+      "semantics": "enabled"
+    },
+    "group": "brands"
+  }
+]
