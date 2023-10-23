@@ -1,29 +1,33 @@
-// build.js
 import StyleDictionary from "style-dictionary";
+import { registerTransforms } from "@tokens-studio/sd-transforms";
 
-const myStyleDictionary = StyleDictionary.extend({
+// Register the custom transforms
+registerTransforms(StyleDictionary);
+
+const styleDictionary = StyleDictionary.extend({
   source: ["tokens.json"],
-  transform: {
-    myTransform: {
-      type: "name",
-      transformer: (token) => {
-        console.log(token);
-        return `myprefix-${token.name}`;
-      },
-    },
-  },
   platforms: {
     css: {
-      transformGroup: "css",
-      buildPath: "./",
+      transformGroup: "tokens-studio",
+      buildPath: "build/",
       files: [
         {
-          destination: "globals.css",
+          destination: "variables.css",
           format: "css/variables",
+        },
+      ],
+    },
+    tailwind: {
+      transformGroup: "tokens-studio",
+      buildPath: "build/",
+      files: [
+        {
+          destination: "tailwind.config.js",
+          format: "javascript/module",
         },
       ],
     },
   },
 });
 
-myStyleDictionary.buildAllPlatforms();
+styleDictionary.buildAllPlatforms();
