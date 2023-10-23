@@ -8,7 +8,7 @@
       "value": "{dimensions.1}",
       "type": "number"
     },
-    "lg": {
+    "large": {
       "value": "{dimensions.2}",
       "type": "number"
     },
@@ -37,7 +37,7 @@
       "type": "number"
     },
     "round": {
-      "value": 9999,
+      "value": "9999",
       "type": "number"
     }
   },
