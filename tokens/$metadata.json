@@ -4,7 +4,7 @@
     "core/dimensions",
     "core/spacing",
     "brands",
-    "brands/light",
-    "brands/dark"
+    "brands/default/light",
+    "brands/default/dark"
   ]
 }
