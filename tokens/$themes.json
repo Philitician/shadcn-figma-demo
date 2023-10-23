@@ -4,7 +4,8 @@
     "name": "Value",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core/colors": "enabled"
+      "core/colors": "enabled",
+      "core/spacing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:17:48",
     "$figmaModeId": "17:1",
@@ -262,7 +263,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/dimensions": "source",
-      "spacing": "enabled"
+      "core/spacing": "enabled"
     },
     "group": "spacing",
     "$figmaCollectionId": "VariableCollectionId:99:22917",
@@ -311,7 +312,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brands": "enabled",
-      "brands/default/light": "enabled"
+      "brands/default/light": "enabled",
+      "core/spacing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:90:37809",
     "$figmaModeId": "90:1",
@@ -424,7 +426,8 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brands": "enabled",
-      "brands/default/dark": "enabled"
+      "brands/default/dark": "enabled",
+      "core/spacing": "disabled"
     },
     "$figmaCollectionId": "VariableCollectionId:90:37809",
     "$figmaModeId": "93:0",

@@ -2,7 +2,7 @@
   "tokenSetOrder": [
     "core/colors",
     "core/dimensions",
-    "spacing",
+    "core/spacing",
     "brands",
     "brands/default/light",
     "brands/default/dark"
