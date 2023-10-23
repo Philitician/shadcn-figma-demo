@@ -3,7 +3,6 @@
     "core/colors",
     "core/dimensions",
     "core/spacing",
-    "brands",
     "brands/default/light",
     "brands/default/dark"
   ]
