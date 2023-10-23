@@ -1,0 +1,156 @@
+{
+  "radius": {
+    "md": {
+      "value": "{dimensions.1․5}",
+      "type": "number"
+    },
+    "sm": {
+      "value": "{dimensions.1}",
+      "type": "number"
+    },
+    "lg": {
+      "value": "{dimensions.2}",
+      "type": "number"
+    },
+    "button": {
+      "value": "{dimensions.1․5}",
+      "type": "number"
+    },
+    "input": {
+      "value": "{dimensions.1․5}",
+      "type": "number"
+    },
+    "iconbutton": {
+      "value": "{dimensions.1․5}",
+      "type": "number"
+    },
+    "focusring": {
+      "value": "{dimensions.2}",
+      "type": "number"
+    },
+    "card": {
+      "value": "{dimensions.3}",
+      "type": "number"
+    },
+    "dialog": {
+      "value": "{dimensions.2}",
+      "type": "number"
+    },
+    "round": {
+      "value": 9999,
+      "type": "number"
+    }
+  },
+  "spacing": {
+    "3xs": {
+      "value": "{dimensions.0․5}",
+      "type": "number"
+    },
+    "2xs": {
+      "value": "{dimensions.1}",
+      "type": "number"
+    },
+    "xs": {
+      "value": "{dimensions.1․5}",
+      "type": "number"
+    },
+    "sm": {
+      "value": "{dimensions.2}",
+      "type": "number"
+    },
+    "md": {
+      "value": "{dimensions.3}",
+      "type": "number"
+    },
+    "lg": {
+      "value": "{dimensions.4}",
+      "type": "number"
+    },
+    "xl": {
+      "value": "{dimensions.6}",
+      "type": "number"
+    },
+    "2xl": {
+      "value": "{dimensions.8}",
+      "type": "number"
+    },
+    "3xl": {
+      "value": "{dimensions.12}",
+      "type": "number"
+    }
+  },
+  "size": {
+    "button": {
+      "md": {
+        "value": "{dimensions.10}",
+        "type": "number"
+      },
+      "sm": {
+        "value": "{dimensions.9}",
+        "type": "number"
+      },
+      "lg": {
+        "value": "{dimensions.11}",
+        "type": "number"
+      },
+      "xl": {
+        "value": "{dimensions.12}",
+        "type": "number"
+      }
+    },
+    "formcontrol": {
+      "sm": {
+        "value": "{dimensions.3․5}",
+        "type": "number"
+      },
+      "md": {
+        "value": "{dimensions.4}",
+        "type": "number"
+      },
+      "lg": {
+        "value": "{dimensions.5}",
+        "type": "number"
+      }
+    },
+    "input": {
+      "sm": {
+        "value": "{dimensions.9}",
+        "type": "number"
+      },
+      "md": {
+        "value": "{dimensions.10}",
+        "type": "number"
+      },
+      "lg": {
+        "value": "{dimensions.11}",
+        "type": "number"
+      }
+    },
+    "avatar": {
+      "xs": {
+        "value": "{dimensions.6}",
+        "type": "number"
+      },
+      "sm": {
+        "value": "{dimensions.8}",
+        "type": "number"
+      },
+      "md": {
+        "value": "{dimensions.10}",
+        "type": "number"
+      },
+      "lg": {
+        "value": "{dimensions.12}",
+        "type": "number"
+      },
+      "xl": {
+        "value": "{dimensions.14}",
+        "type": "number"
+      },
+      "2xl": {
+        "value": "{dimensions.16}",
+        "type": "number"
+      }
+    }
+  }
+}

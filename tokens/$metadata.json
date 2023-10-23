@@ -1,6 +1,10 @@
 {
   "tokenSetOrder": [
-    "primitives",
-    "semantics"
+    "core/colors",
+    "core/dimensions",
+    "core/spacing",
+    "brands",
+    "brands/light",
+    "brands/dark"
   ]
 }
