@@ -1,9 +1,8 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <main className="bg-base-black">
-      <h1>Hello</h1>
+    <main className="flex flex-col">
+      <div className="bg-slate-950 w-10 h-10">Hi</div>
+      <div className="bg-[#11181C] w-10 h-10">Hello</div>
     </main>
   );
 }

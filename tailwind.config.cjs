@@ -4,7 +4,7 @@ import baseConfig from "./tailwind.base.config.cjs";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
-  prepresets: [baseConfig],
+  presets: [baseConfig],
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
