@@ -28,7 +28,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "build-tokens.js",
-    "config.cjs"
+    "config.cjs",
+    "tailwind.config.cjs"
   ],
   "exclude": ["node_modules"]
 }

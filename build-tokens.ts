@@ -1,33 +1,28 @@
-import StyleDictionary from "style-dictionary";
-import { registerTransforms } from "@tokens-studio/sd-transforms";
+import StyleDictionaryModule from "style-dictionary";
+import { makeSdTailwindConfig } from "sd-tailwindcss-transformer";
 
-// Register the custom transforms
-registerTransforms(StyleDictionary);
-
-const styleDictionary = StyleDictionary.extend({
-  source: ["tokens.json"],
-  platforms: {
-    css: {
-      transformGroup: "tokens-studio",
-      buildPath: "build/",
-      files: [
-        {
-          destination: "variables.css",
-          format: "css/variables",
-        },
-      ],
-    },
-    tailwind: {
-      transformGroup: "tokens-studio",
-      buildPath: "build/",
-      files: [
-        {
-          destination: "tailwind.config.js",
-          format: "javascript/module",
-        },
-      ],
-    },
+const sdConfig = makeSdTailwindConfig({
+  type: "all",
+  formatType: "cjs",
+  isVariables: true,
+  source: ["./tokens/core/**/*.json", "./tokens/brands/**/*.json"],
+  transforms: ["attribute/cti", "name/cti/kebab"],
+  buildPath: `./`,
+  tailwind: {
+    content: [],
   },
 });
 
-styleDictionary.buildAllPlatforms();
+sdConfig.platforms["css"] = {
+  transformGroup: "css",
+  buildPath: "./styles/",
+  files: [
+    {
+      destination: "tailwind.css",
+      format: "css/variables",
+    },
+  ],
+};
+
+const StyleDictionary = StyleDictionaryModule.extend(sdConfig);
+StyleDictionary.buildAllPlatforms();

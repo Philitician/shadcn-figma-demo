@@ -1,6 +1,10 @@
-import type { Config } from "tailwindcss";
+// import type { Config } from "tailwindcss";
+// import baseConfig from "./tailwind.base.config";
+import baseConfig from "./tailwind.base.config.cjs";
 
-const config: Config = {
+/** @type {import('tailwindcss').Config} */
+const config = {
+  prepresets: [baseConfig],
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
