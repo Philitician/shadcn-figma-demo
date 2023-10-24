@@ -2,7 +2,7 @@
   "colors": {
     "bg": {
       "default": {
-        "value": "{colors.zinc.950}",
+        "value": "{colors.zinc.900}",
         "type": "color"
       },
       "subtle": {

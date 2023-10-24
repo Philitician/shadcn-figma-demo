@@ -307,10 +307,10 @@
   },
   {
     "id": "a7ffb2547635021d53aeb5008e4e64f4c13b1721",
-    "name": "Default - Light",
+    "name": "Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brands/default/light": "enabled"
+      "brand/light": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:90:37809",
     "$figmaModeId": "90:1",
@@ -415,14 +415,14 @@
       "colors.text.magic.default": "5d9c52f429ea7b7066871a5915ae7fbff27200a1",
       "colors.text.magic.strong": "870e37ef38c3de53a9e1499d122867ccbc57fb97"
     },
-    "group": "brands"
+    "group": "brand"
   },
   {
     "id": "3b907caa8af55fd45d7c7898b653e3d075b3dbeb",
-    "name": "Default - Dark",
+    "name": "Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brands/default/dark": "enabled"
+      "brand/dark": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:90:37809",
     "$figmaModeId": "93:0",
@@ -527,6 +527,6 @@
       "colors.text.magic.default": "5d9c52f429ea7b7066871a5915ae7fbff27200a1",
       "colors.text.magic.strong": "870e37ef38c3de53a9e1499d122867ccbc57fb97"
     },
-    "group": "brands"
+    "group": "brand"
   }
 ]
