@@ -1,6 +1,13 @@
 import type { Config } from "tailwindcss";
+// import baseConfig from "./tailwind.base.config";
+import {
+  colors,
+  textColor,
+  backgroundColor,
+  borderColor,
+} from "./styles/tailwind/tailwind.core.plugins.config";
 
-const config: Config = {
+const config = {
   darkMode: ["class"],
   content: [
     "./pages/**/*.{ts,tsx}",
@@ -17,7 +24,25 @@ const config: Config = {
       },
     },
     extend: {
+      textColor,
+      backgroundColor,
+      // backgroundColor: {
+      //   error: {
+      //     strong: {
+      //       DEFAULT: "var(--colors-bg-error-strong-default)",
+      //       hover: "var(--colors-bg-error-strong-hover)",
+      //       active: "var(--colors-bg-error-strong-active)",
+      //     },
+      //     muted: {
+      //       DEFAULT: "var(--colors-bg-error-muted-default)",
+      //       hover: "var(--colors-bg-error-muted-hover)",
+      //       active: "var(--colors-bg-error-muted-active)",
+      //     },
+      //   },
+      // },
+      borderColor,
       colors: {
+        ...colors,
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
