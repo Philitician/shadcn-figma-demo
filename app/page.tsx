@@ -1,8 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex flex-col">
-      <div className="bg-slate-950 w-10 h-10">Hi</div>
-      <div className="bg-[#11181C] w-10 h-10">Hello</div>
+    <main>
+      <h1 className="bg-hover">background</h1>
+      <h1 className="bg-error-strong-hover">error strong hover</h1>
+      <h2 className="bg-error-strong-hover">error strong active</h2>
     </main>
   );
 }
